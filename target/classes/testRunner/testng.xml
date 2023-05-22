@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Multi Browser Testing" parallel="tests" thread-count="1">
+	<test name="edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="tests.MultiBrowserTesting"></class>
+		</classes>
+	</test>
+	
+	<test name="firefox">
+		
+		<parameter name="browser" value="firefox"></parameter>
+		
+		<classes>
+			
+			<class name="tests.MultiBrowserTesting">
+				
+				
+			</class>
+		</classes>
+	</test>
+</suite>
