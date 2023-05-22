@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class MultiBrowserTesting {
+public class MultiBrowserTestin {
 	
 	public static WebDriver driver;
 	
